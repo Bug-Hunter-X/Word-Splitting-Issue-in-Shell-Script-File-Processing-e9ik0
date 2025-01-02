@@ -1,0 +1,3 @@
+# Shell Script Bug: Word Splitting in File Processing
+
+This repository demonstrates a common error in shell scripting related to word splitting when iterating over a list of filenames that might contain spaces.  The `bug.sh` script shows the problematic code, and `bugSolution.sh` provides the corrected version.  The bug arises from directly using a space-separated string in a `for` loop without proper quoting or array handling.
